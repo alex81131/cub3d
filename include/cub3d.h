@@ -6,7 +6,7 @@
 /*   By: kyeh <kyeh@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/28 15:16:09 by kyeh              #+#    #+#             */
-/*   Updated: 2024/10/10 16:07:31 by kyeh             ###   ########.fr       */
+/*   Updated: 2024/10/21 16:20:33 by kyeh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -151,9 +151,6 @@ void	move_check(t_vec *step, t_data *data, int add_or_min);
 
 // /* * * * * * * * * * * color.c * * * * * * * * * * */
 int		create_trgb(int t, int r, int g, int b);
-// int		get_color(int trgb, char index);
-// int		add_shade(double factor, int color);
-// int		get_opposite(int color);
 
 // /* * * * * * * * * * * RC Rendering * * * * * * * * * * */
 int		rc_rendering(t_data *data);
@@ -171,3 +168,6 @@ void	play_sprite_forward(t_data *data, int map_x, int map_y);
 void	play_sprite_backward(t_data *data, int map_x, int map_y);
 
 #endif
+// TEXTURE_NB:
+// 	used to count the data
+// 	(the rest is the map itself)
